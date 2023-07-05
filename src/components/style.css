@@ -20,6 +20,8 @@ body {
   background-color: #344e41;
   border-radius: 10px;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 .img-container {
   padding: 8px;
@@ -36,12 +38,9 @@ body {
   width: 400px;
   height: 200px;
 }
-.experience-container {
-  display: flex;
-  flex-direction: column;
-}
+
 .project-container {
-  background-color: #d4a373;
+  background-color: #faedcd;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -78,7 +77,9 @@ body {
 .button-container {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  /* margin-top: 20px; */
+  margin: 10px;
+  gap: 50px;
 }
 .btn.btn-primary {
   display: flex;
@@ -92,7 +93,10 @@ body {
 }
 
 .btn.btn-primary:hover {
-  background-color: darkblue;
+  background-color: #d90429;
+}
+.btn .btn-primary:hover {
+  background-color: #d90429;
 }
 @media (max-width: 768px) {
   .home-main-container {
@@ -148,5 +152,16 @@ body {
   .tools-img-container {
     text-align: center;
     font-weight: 700;
+  }
+
+  .project-container h1,
+  p {
+    text-align: center;
+  }
+  .experience-container h1 {
+    text-align: center;
+  }
+  .contact-form h1 {
+    text-align: center;
   }
 }

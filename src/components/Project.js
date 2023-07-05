@@ -6,7 +6,7 @@ export default function Project() {
     <div>
       <div className="project-container m-3">
         <h1>Project</h1>
-        <p>check out some of my work right here</p>
+        <p>Check out some of my work right here:</p>
 
         <div className="logo-container">
           <div className="logo-img-container">

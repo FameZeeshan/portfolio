@@ -9,9 +9,9 @@ export default function Home() {
         <div className="container-left">
           <h1>I'm a full-stack developer</h1>
           <p style={{ width: "90%" }}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Dignissimos eius aliquid suscipit doloremque beatae magnam commodi
-            earum. Officiis, voluptas quibusdam.
+            Experienced Professional transitioning to a career as a MERN Stack
+            Developer - Passionate about building innovative solutions with the
+            latest technologies
           </p>
           <button type="button" className="btn btn-primary">
             Projects

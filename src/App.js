@@ -5,6 +5,7 @@ import About from "./components/About";
 import Project from "./components/Project";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+
 function App() {
   return (
     <div className="App">
