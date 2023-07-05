@@ -1,22 +1,26 @@
 import React from "react";
-import "./style.css";
+
 export default function About() {
   return (
-    <div>
-      <div className="main-container m-3">
-        <h1>About</h1>
-        <h3>I'm Mohammed Zeeshan</h3>
-        <p>
-          I am Full Stack Developer, I have expertise in HTML, CSS,
-          JavaScript,Bootstrap and popular frameworks such as React.js Bootstarp
-          . I create visually appealing and user-friendly interfaces with a
-          focus on detail, and stay up-to-date with the latest frontend
-          technologies and best practices. I am skilled in troubleshooting , and
-          have a passion for creating seamless user experiences. I have Good
-          communication skills and a proven ability to collaborate with
-          developers.
-        </p>
-      </div>
+    <div className="main-container">
+      <h1>About</h1>
+      <h3>I'm Mohammed Zeeshan</h3>
+      <p>
+        I am a Full Stack Developer with expertise in HTML, CSS, JavaScript,
+        Bootstrap, and popular frameworks such as React.js. I create visually
+        appealing and user-friendly interfaces with a focus on detail and stay
+        up-to-date with the latest frontend technologies and best practices. I
+        am skilled in troubleshooting and have a good understanding of web
+        development concepts. I have experience working with backend
+        technologies such as Node.js and Express.js. I am constantly learning
+        and expanding my skillset to stay ahead in the rapidly evolving tech
+        industry. In addition to my technical skills, I am a team player and
+        have excellent communication and problem-solving skills. I thrive in
+        collaborative environments and enjoy working with others to achieve
+        common goals. If you have any questions or would like to collaborate on
+        a project, feel free to get in touch with me. I look forward to
+        connecting with you!
+      </p>
     </div>
   );
 }
