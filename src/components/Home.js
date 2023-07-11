@@ -1,10 +1,11 @@
 import React from "react";
+import { Link as ScrollLink } from "react-scroll";
 import "./style.css";
 import Zeeshan from "../images/Zeeshan.jpg";
 
 export default function Home() {
   return (
-    <div>
+    <div id="home">
       <div className="home-main-container d-flex m-3">
         <div className="container-left">
           <h1>I'm a full-stack developer</h1>
@@ -14,26 +15,18 @@ export default function Home() {
             latest technologies
           </p>
           <div className="social">
-            <a
-              href="https://www.linkedin.com/in/famezeeshan/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <ScrollLink to="contact" smooth={true} duration={500} offset={-70}>
               <i
                 className="fa fa-linkedin-square"
                 style={{ fontSize: "48px", color: "#003049" }}
               ></i>
-            </a>
-            <a
-              href="https://github.com/FameZeeshan"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            </ScrollLink>
+            <ScrollLink to="contact" smooth={true} duration={500} offset={-70}>
               <i
                 className="fa fa-github-square"
                 style={{ fontSize: "48px", color: "#000814" }}
               />
-            </a>
+            </ScrollLink>
           </div>
         </div>
         <div className="container-right">

@@ -1,6 +1,12 @@
 body {
   background-color: #ccd5ae;
 }
+.navbar-nav .nav-item .nav-link:hover {
+  color: #283618;
+  font-weight: 700;
+  cursor: pointer;
+}
+
 .home-main-container {
   padding: 10px;
   border-radius: 10px;
