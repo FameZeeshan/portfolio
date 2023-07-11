@@ -5,7 +5,7 @@ import demo1 from "../images/demo1.png";
 import formvalidation from "../images/form-validation.png";
 export default function Project() {
   return (
-    <div>
+    <div className="project">
       <div className="project-container m-3">
         <h1>Project</h1>
         <p>Check out some of my work right here:</p>

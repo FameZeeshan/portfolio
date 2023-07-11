@@ -1,10 +1,10 @@
 import React from "react";
 import "./style.css";
 import Zeeshan from "../images/Zeeshan.jpg";
-
+import zeeshanResume from "../images/zeeshan-resume.pdf";
 export default function Home() {
   return (
-    <div>
+    <div id="home">
       <div className="home-main-container d-flex m-3">
         <div className="container-left">
           <h1>I'm a full-stack developer</h1>
@@ -13,9 +13,33 @@ export default function Home() {
             Developer - Passionate about building innovative solutions with the
             latest technologies
           </p>
-          <button type="button" className="btn btn-primary">
-            Projects
-          </button>
+          <div className="social">
+            <a
+              href="https://www.linkedin.com/in/famezeeshan/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i
+                className="fa fa-linkedin-square"
+                style={{ fontSize: "48px", color: "#003049" }}
+              ></i>
+            </a>
+            <a
+              href="https://github.com/FameZeeshan"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i
+                className="fa fa-github-square"
+                style={{ fontSize: "48px", color: "#111111" }}
+              ></i>
+            </a>
+          </div>
+          <div className="resume">
+            <a href={zeeshanResume} download className="btn btn-primary resume">
+              Download Resume
+            </a>
+          </div>
         </div>
         <div className="container-right">
           <img

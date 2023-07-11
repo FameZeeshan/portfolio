@@ -1,12 +1,18 @@
 import React from "react";
+import { Link as ScrollLink } from "react-scroll";
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-black-tertiary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/">
+        <ScrollLink
+          to="home"
+          smooth={true}
+          duration={500}
+          className="navbar-brand"
+        >
           Mohammed Zeeshan
-        </a>
+        </ScrollLink>
         <button
           className="navbar-toggler"
           type="button"
@@ -21,29 +27,59 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/">
+              <ScrollLink
+                to="home"
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className="nav-link"
+              >
                 Home
-              </a>
+              </ScrollLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/About">
+              <ScrollLink
+                to="about"
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className="nav-link"
+              >
                 About
-              </a>
+              </ScrollLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Project">
+              <ScrollLink
+                to="project"
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className="nav-link"
+              >
                 Project
-              </a>
+              </ScrollLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Experience">
+              <ScrollLink
+                to="experience"
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className="nav-link"
+              >
                 Experience
-              </a>
+              </ScrollLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Contact">
+              <ScrollLink
+                to="contact"
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className="nav-link"
+              >
                 Contact
-              </a>
+              </ScrollLink>
             </li>
           </ul>
         </div>

@@ -12,7 +12,7 @@ import tailwind from "../images/tailwind.png";
 import python from "../images/python.png";
 export default function Experience() {
   return (
-    <div>
+    <div className="experience">
       <div className="experience-container m-3">
         <h1>Experience</h1>
         <p>These are the technologies I've worked with</p>
