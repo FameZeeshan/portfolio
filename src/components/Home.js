@@ -2,7 +2,7 @@ import React from "react";
 import { Link as ScrollLink } from "react-scroll";
 import "./style.css";
 import Zeeshan from "../images/Zeeshan.jpg";
-
+import zeeshanResume from "../images/zeeshan-resume.pdf";
 export default function Home() {
   return (
     <div id="home">
@@ -27,6 +27,11 @@ export default function Home() {
                 style={{ fontSize: "48px", color: "#000814" }}
               />
             </ScrollLink>
+          </div>
+          <div className="resume">
+            <a href={zeeshanResume} download className="btn btn-primary resume">
+              Download Resume
+            </a>
           </div>
         </div>
         <div className="container-right">
