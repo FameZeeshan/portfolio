@@ -13,9 +13,28 @@ export default function Home() {
             Developer - Passionate about building innovative solutions with the
             latest technologies
           </p>
-          <button type="button" className="btn btn-primary">
-            Projects
-          </button>
+          <div className="social">
+            <a
+              href="https://www.linkedin.com/in/famezeeshan/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i
+                className="fa fa-linkedin-square"
+                style={{ fontSize: "48px", color: "#003049" }}
+              ></i>
+            </a>
+            <a
+              href="https://github.com/FameZeeshan"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i
+                className="fa fa-github-square"
+                style={{ fontSize: "48px", color: "#000814" }}
+              />
+            </a>
+          </div>
         </div>
         <div className="container-right">
           <img

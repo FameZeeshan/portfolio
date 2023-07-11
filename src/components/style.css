@@ -39,6 +39,14 @@ body {
   height: 200px;
 }
 
+i {
+  padding: 5px;
+  cursor: pointer;
+}
+
+i:hover {
+  transform: scale(1.2);
+}
 .project-container {
   background-color: #faedcd;
   display: flex;
@@ -51,6 +59,9 @@ body {
   height: 200px;
   border-radius: 20px;
 }
+/* .logo-img-container img:hover {
+  transform: scale(1.2);
+} */
 .tools-img-container {
   text-align: center;
   font-weight: 700;
@@ -74,10 +85,16 @@ body {
   align-items: center;
   margin: 10px;
 }
+.logo-img-container:hover {
+  transform: scale(1.05);
+  border-color: #d90429;
+  border-width: 2px;
+  transition: border-color 0.3s ease;
+}
 .button-container {
   display: flex;
   justify-content: center;
-  /* margin-top: 20px; */
+
   margin: 10px;
   gap: 50px;
 }
