@@ -5,6 +5,7 @@ import About from "./components/About";
 import Project from "./components/Project";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import ScrollToTopButton from "./components/ScrollToTopButton"; // Import the ScrollToTopButton component
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Project />
       <Experience />
       <Contact />
+      <ScrollToTopButton />
     </div>
   );
 }
