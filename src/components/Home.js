@@ -1,5 +1,4 @@
 import React from "react";
-import { Link as ScrollLink } from "react-scroll";
 import "./style.css";
 import Zeeshan from "../images/Zeeshan.jpg";
 import zeeshanResume from "../images/zeeshan-resume.pdf";
@@ -15,18 +14,26 @@ export default function Home() {
             latest technologies
           </p>
           <div className="social">
-            <ScrollLink to="contact" smooth={true} duration={500} offset={-70}>
+            <a
+              href="https://www.linkedin.com/in/famezeeshan/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i
                 className="fa fa-linkedin-square"
                 style={{ fontSize: "48px", color: "#003049" }}
               ></i>
-            </ScrollLink>
-            <ScrollLink to="contact" smooth={true} duration={500} offset={-70}>
+            </a>
+            <a
+              href="https://github.com/FameZeeshan"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i
                 className="fa fa-github-square"
-                style={{ fontSize: "48px", color: "#000814" }}
-              />
-            </ScrollLink>
+                style={{ fontSize: "48px", color: "#111111" }}
+              ></i>
+            </a>
           </div>
           <div className="resume">
             <a href={zeeshanResume} download className="btn btn-primary resume">
