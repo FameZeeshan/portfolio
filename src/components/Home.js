@@ -34,6 +34,16 @@ export default function Home() {
                 style={{ fontSize: "48px", color: "#111111" }}
               ></i>
             </a>
+            <a
+              href="https://api.whatsapp.com/send?phone=+919884291490"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i
+                className="fa fa-whatsapp"
+                style={{ fontSize: "48px", color: "#008000" }}
+              ></i>
+            </a>
           </div>
           <div className="resume">
             <a href={zeeshanResume} download className="btn btn-primary resume">
